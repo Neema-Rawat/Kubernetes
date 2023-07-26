@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myprivatepod
+spec:
+  imagePullSecrets:
+    - name: my-cred
+  containers:
+  - name: myapp
+    image: neemarawat/myapache_code
+    ports:
+      - containerPort: 80

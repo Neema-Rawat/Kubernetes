@@ -1,0 +1,8 @@
+apiVersion: v1
+data:
+  .dockerconfigjson: eyJhdXRocyI6eyJkb2NrZXIuaW8iOnsidXNlcm5hbWUiOiJuZWVtYXJhd2F0IiwicGFzc3dvcmQiOiJSQVdBVDEyMzQ1bmVlbWFAIiwiYXV0aCI6ImJtVmxiV0Z5WVhkaGREcFNRVmRCVkRFeU16UTFibVZsYldGQSJ9fX0=
+kind: Secret
+metadata:
+  creationTimestamp: null
+  name: my1-cred
+type: kubernetes.io/dockerconfigjson
